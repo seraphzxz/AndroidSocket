@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/seraphzxz/Android/SDK/cmake/3.6.4111459/bin/cmake --build /home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/seraphzxz/Android/SDK/cmake/3.6.4111459/bin/cmake --build /home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/seraphzxz/Android/SDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "15470730012002025674"
+		}
+	},
+	"toolchains" : 
+	{
+		"15470730012002025674" : 
+		{
+			"cCompilerExecutable" : "/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

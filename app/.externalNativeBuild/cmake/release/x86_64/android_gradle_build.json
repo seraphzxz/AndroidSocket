@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/seraphzxz/Android/SDK/cmake/3.6.4111459/bin/cmake --build /home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/seraphzxz/Android/SDK/cmake/3.6.4111459/bin/cmake --build /home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/seraphzxz/Android/SDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/seraphzxz/Android/SDK/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/seraphzxz/AdroidProject/practice/AndroidSocket/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "15470730012002025674"
+		}
+	},
+	"toolchains" : 
+	{
+		"15470730012002025674" : 
+		{
+			"cCompilerExecutable" : "/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/seraphzxz/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
